@@ -1,0 +1,85 @@
+body{
+      font-family: Epilogue;
+      margin: 5em 10em ;
+}
+/* header{
+      display: inline;
+} */
+nav div{
+      display: inline-flex;
+      color: hsl(0, 0%, 41%);
+      padding-left: 1em;
+      font-size: 14px;
+}
+select{
+      border: none;
+}
+select, option{
+      color: hsl(0, 0%, 41%);
+}
+#todo::before{
+      background: url(./images/icon-todo.svg);
+}
+/* #feature, #company{
+      border-style: none;
+} */
+#login{
+      padding-left: 38em;
+}
+#register{
+      color: hsl(0, 0%, 41%);
+      border: 1px solid hsl(0, 0%, 41%);
+      height: 2.5em;
+      width: 8em;
+      border-radius: 10px;
+      background-color: hsl(0, 0%, 98%);
+}
+#container{
+      display: flex;
+      margin: 2em 13em;
+}
+#container-1 h1{
+      /* font-family: Epilogue; */
+      font-size: xx-large;
+      font-weight: 900;
+}
+#container-1 p{
+      margin-top: 1em;
+      font-size: 14px;
+      /* font-family: Epilogue; */
+      color: hsl(0, 0%, 41%);
+}
+#container-1 button{
+      margin-top: 2em; 
+      font-size: 14px;
+      height: 2.5em;
+      width: 10em;
+      color: hsl(0, 0%, 98%);
+      background-color: hsl(0, 0%, 8%);
+      border: none;
+      border-radius: 10px;
+}
+#container-1 div{
+      margin-top: 2em;
+}
+#client-logo{
+      display: flex;
+}
+#client-logo img{
+      height: 2em;
+      width: 5em;
+      padding: 1em;
+}
+#container-2{
+      margin-left: 8em;
+}
+#container-2 img{
+      height: 22em;
+      width: 18em;
+}
+
+@media only screen and (max-width: 600px) {
+      #container{
+            display: block;
+      }
+}

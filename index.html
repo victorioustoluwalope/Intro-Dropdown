@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+  <main>
+    <header>
+      <!-- <img src="./images/logo.svg" alt="Logo"> <img src="./images/icon-todo.svg" alt="todo icon"> -->
+      <nav>
+        <!-- <ul> -->
+          <div><img src="./images/logo.svg" alt="Logo"></div>
+          <div id="feature">
+            <i class="fas fa-bars"></i>
+            <select>
+              <option value="features"> Features</option>
+              <option value="todo list" id="todo">Todo list</option>
+              <option value="calendars"><img src="./images/icon-calendar.svg" alt="calendar icon"> Calendars</option>
+              <option value="reminders"><img src="./images/icon-reminders.svg" alt="reminder icon"> Reminders</option>
+              <option value="planning"><img src="./images/icon-planning.svg" alt=""> Planning</option>
+            </select>
+          </div>
+          <div id="company">
+            <select>
+              <option value="company">Company</option>
+              <option value="history">History</option>
+              <option value="our team">Our Team</option>
+              <option value="blog">Blog</option>
+            </select>
+          </div>
+          <div id="career">Careers</div>
+          <div id="about">About</div>
+          <div id="login">Login</div>
+          <div><button id="register">Register</button></div>
+        <!-- </ul> -->
+      </nav>
+      </header> 
+    
+      <section id="container">
+        <section id="container-1">
+          <h1>Make <br> remote work</h1>
+           <p>Get your team in sync, no matter your location. <br> Streamline processes, 
+              create team rituals, and <br> watch productivity soar.
+          </p>
+          <button>Learn more</button>
+          <div id="client-logo">
+            <p><img src="./images/client-databiz.svg" alt="DataBiz"></p>
+            <p><img src="./images/client-audiophile.svg" alt="Audiophile"></p>
+            <p><img src="./images/client-meet.svg" alt="Meet"></p>
+            <p><img src="./images/client-maker.svg" alt="Maker"></p>
+        
+          </div>
+        </section>
+        <section id="container-2">
+          <img src="./images/image-hero-desktop.png" alt="desktop-hero">
+        </section>
+      </section>
+    
+  </main>
+
+ 
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Victorious-Toluwalope</a>.
+  </footer>
+</body>
+</html>
